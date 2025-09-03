@@ -3,7 +3,6 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-
   - numpy-base=1.23.5
   - openjpeg=2.4.0
   - openssl=1.1.1t
@@ -16,9 +15,7 @@ dependencies:
   - pywavelets
   - pyyaml
   - yaml
-
   - pip:
-  
     - h5py==3.7.0
     - joblib==1.2.0
     - keras==2.10.0
@@ -55,7 +52,8 @@ dependencies:
     - tensorboard==2.10.0
     - tensorboard-data-server==0.6.1
     - tensorboard-plugin-wit==1.8.1
-    - tensorflow==2.10.0
+    - tensorflow-macos==2.10.0
+    - tensorflow-metal==1.0.1
     - tensorflow-estimator==2.10.0
     - tensorflow-io-gcs-filesystem==0.26.0
     - termcolor==1.1.0
